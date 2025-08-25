@@ -3,7 +3,6 @@
 .coffee-card-container{
     position: relative;
     height: 100%;
-    width: 70%;
 }
 
 .coffee-card-container .coffee-card-tag{
@@ -21,13 +20,11 @@
 
 .coffee-card-container>img{
     border-radius: 20px;
-    min-width: 260px !important;
-    min-height: 160px !important;
+    width: 100%;
 }
 
 .coffee-name-price-container{
     position: relative;
-    min-width: 260px !important;
     top: 10px;
 }
 
@@ -55,7 +52,6 @@
     top: 20px;
     font-size: 1rem;
     font-family: "DM Sans", sans-serif;
-    min-width: 260px !important;
 }
 
 .coffee-rating-available-container img{
@@ -79,11 +75,12 @@
     color: #ED735D;
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 1024px) {
     .coffee-card-container{
-        width: 90%;
-    }
-    .coffee-card-container>img{
-        width: 100%;
+        width: 260px;
+        margin: 0 auto;
     }
 }

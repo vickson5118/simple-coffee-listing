@@ -6,9 +6,17 @@
     background-size: cover;
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) {
     .header{
-        background-image: url("../public/assets/resources/bg-cafe-sm.jpg");
+        background-image: url("../public/assets/resources/bg-cafe.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header{
+        background-image: url("../public/assets/resources/bg-cafe.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
