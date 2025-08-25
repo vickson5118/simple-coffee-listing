@@ -1,6 +1,7 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import "tailwindcss";
+
+.header{
+    background-image: url("../public/assets/resources/bg-cafe-lg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

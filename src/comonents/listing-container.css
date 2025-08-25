@@ -1,0 +1,48 @@
+.listing-container{
+    width: 85.7%;
+    margin: 0 auto;
+    background-color: #1B1D1F;
+    position: relative;
+    top: -60px;
+    background-image: url("../../public/assets/resources/vector.svg");
+    background-repeat: no-repeat;
+    background-position: 60.6% 30px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.listing-container h1{
+    text-align: center;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 2rem;
+}
+
+.listing-container>p{
+    margin: 0 auto;
+    color: #6F757C;
+    text-align: center;
+    width: 30%;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.listing-btn-container{
+    padding-top: 32px;
+    text-align: center;
+}
+
+.listing-btn-container a{
+    color: white;
+    display: inline-block;
+    margin-right: 32px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.875rem;
+}
+
+.coffee-card-container{
+    width: 73%;
+    margin: 32px auto;
+    text-align: center;
+}

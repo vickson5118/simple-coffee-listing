@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+.coffee-card-container{
+    position: relative;
+    height: 100%;
+}
+
+.coffee-card-container .coffee-card-tag{
+    background-color: #F6C768;
+    color: black;
+    border-radius: 50px;
+    position: absolute;
+    padding: 5px 10px;
+    font-size: 0.625rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    left: 10px;
+    top: 10px;
+}
+
+.coffee-card-container img{
+    width: 360px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.coffee-name-price-container{
+    position: relative;
+    top: 10px;
+}
+
+.coffee-name-price-container .coffee-name,
+.coffee-name-price-container .coffee-price{
+    color: white;
+    font-size: 1rem;
+    font-family: "DM Sans", sans-serif;
+    padding: 2px 0;
+}
+
+.coffee-name-price-container .coffee-price{
+    position: absolute;
+    font-size: 0.75rem;
+    right: 0;
+    color: black;
+    background-color: #BEE3CC;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+.coffee-rating-available-container{
+    position: relative;
+    top: 20px;
+    font-size: 1rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+.coffee-rating-available-container img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.coffee-rating-available-container .coffee-rating p span:first-child{
+    display: inline-block;
+    margin-right: 5px;
+    color: white;
+}
+.coffee-rating-available-container .coffee-rating p span:nth-child(2){
+    color: #6F757C;
+}
+
+.coffee-available{
+    position: absolute;
+    right: 0;
+    color: #ED735D;
+}
