@@ -49,6 +49,6 @@
 
 @media only screen and (max-width: 1024px) {
     .coffee-card-container{
-        width: 90%;
+        width: 100%;
     }
 }
