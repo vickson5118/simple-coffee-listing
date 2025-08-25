@@ -46,3 +46,9 @@
     margin: 32px auto;
     text-align: center;
 }
+
+@media only screen and (max-width: 1024px) {
+    .coffee-card-container{
+        width: 90%;
+    }
+}
