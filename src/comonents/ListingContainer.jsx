@@ -19,13 +19,26 @@ export const ListingContainer = () => {
         })
     }, []);
 
+    const handleClicked = (event) =>{
+        event.preventDefault();
+        document.querySelector(".listing-btn-container .active").classList.remove("active");
+        if(event.target.textContent === "Available Now"){
+            setCoffeeData(coffeeData.filter(coffee => coffee.available))
+        }else{
+            getData().then(data => {
+                setCoffeeData(data);
+            })
+        }
+        event.target.classList.add("active");
+    }
+
     return (
            <div className="listing-container w-full h-12/12">
                <h1>Our collection</h1>
                <p>Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly.</p>
                <div className="listing-btn-container">
-                   <a href="#" className="active">All Products</a>
-                   <a href="#">Available Now</a>
+                   <a href="#" className="active" onClick={handleClicked}>All Products</a>
+                   <a href="#" onClick={ handleClicked}>Available Now</a>
                </div>
                <div className="coffee-card-listing-container grid grid-cols-3 gap-14 max-[1024px]:grid max-[1024px]:grid-cols-1">
                    {
