@@ -19,13 +19,12 @@
 }
 
 .coffee-card-container img{
-    width: 360px;
-    height: auto;
     border-radius: 20px;
 }
 
 .coffee-name-price-container{
     position: relative;
+    background-color: green;
     top: 10px;
 }
 

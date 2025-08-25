@@ -27,7 +27,7 @@ export const ListingContainer = () => {
                    <a href="#">All Products</a>
                    <a href="#">Available Now</a>
                </div>
-               <div className="coffee-card-container grid grid-cols-3 gap-14">
+               <div className="coffee-card-container grid grid-cols-3 gap-16">
                    {
                         coffeeData.map((coffee) => (
                             <CoffeCard key={coffee.id} coffee={coffee} />
