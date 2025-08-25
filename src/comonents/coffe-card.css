@@ -26,7 +26,6 @@
 
 .coffee-name-price-container{
     position: relative;
-    background-color: green;
     min-width: 260px !important;
     top: 10px;
 }
@@ -79,7 +78,7 @@
     color: #ED735D;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1279px) {
     .coffee-card-container>img{
         width: 100%;
     }

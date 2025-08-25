@@ -41,14 +41,27 @@
     font-size: 0.875rem;
 }
 
+.listing-btn-container a.active{
+    padding: 10px 15px;
+    background-color: #6F757C;
+    border-radius: 10px;
+}
+
 .coffee-card-container{
     width: 73%;
     margin: 32px auto;
     text-align: center;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .listing-container{
+        top: -140px;
+        width: 90%;
+    }
     .coffee-card-container{
-        width: 100%;
+        width: 80%;
+    }
+    .listing-container>p{
+        width: 50%;
     }
 }

@@ -24,7 +24,7 @@ export const ListingContainer = () => {
                <h1>Our collection</h1>
                <p>Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly.</p>
                <div className="listing-btn-container">
-                   <a href="#">All Products</a>
+                   <a href="#" className="active">All Products</a>
                    <a href="#">Available Now</a>
                </div>
                <div className="coffee-card-container grid grid-cols-3 gap-16">
