@@ -18,13 +18,16 @@
     top: 10px;
 }
 
-.coffee-card-container img{
+.coffee-card-container>img{
     border-radius: 20px;
+    min-width: 260px !important;
+    min-height: 160px !important;
 }
 
 .coffee-name-price-container{
     position: relative;
     background-color: green;
+    min-width: 260px !important;
     top: 10px;
 }
 
@@ -52,6 +55,7 @@
     top: 20px;
     font-size: 1rem;
     font-family: "DM Sans", sans-serif;
+    min-width: 260px !important;
 }
 
 .coffee-rating-available-container img{
