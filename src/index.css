@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +13,10 @@ body {
     font-size: 14px;
     text-align: center;
     margin-top: 16px;
-    color: rgb(55, 65, 81);
+    color: white;
 }
 
 .author-info a {
+    color: #BEE3CC;
     text-decoration: none;
 }
